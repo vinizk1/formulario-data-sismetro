@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navegar!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quem somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mais inforações
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Botao</a></li>
+                  <li><a class="dropdown-item" href="#">Outro botao</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Mais um botao</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<div class="row mt-2">
+
+            <div class="col-2 offset-1">
+            <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+                <div class="card-header">Barcos de guerra</div>
+                <div class="card-body">
+                <h5 class="card-title">Onde adquirir?</h5>
+                <p class="card-text">Nos envie uma mensagem informando que quer um barco de guerra e nosso assistente vitor irá lhe passar mais informações!</p>
+                </div>
+          </div>
+        </div>
+ 
+
+
+        <div class="col-2 offset-1">
+                <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+                <div class="card-header">Jetsqui</div>
+                <div class="card-body">
+                <h5 class="card-title">Todos os modelos do mercado</h5>
+                <p class="card-text">Clique no link abaixo para ver jetsquis.</p>
+                <a href="https://lista.mercadolivre.com.br/jet-ski" class="btn btn-primary">Ver Jetsqui!</a>
+
+                </div>
+            </div>
+        </div>
+ 
+            <div class="col-3 offset-1">
+            <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+                <div class="card-header">Nos contacte</div>
+                <div class="card-body">
+                <h5 class="card-title">Responda!</h5>
+                <form>
+                    <label for="nome">
+                        Nome
+                        <input class="form-control" type="text" placeholder="Digite seu nome" required>
+                    </label>
+
+                    <label for="email">
+                        Email
+                        <input class="form-control" type="email" placeholder="example@gmail.com" required>
+                    </label>
+
+                <label for="Mensagem">
+                    Digite Sua Mensagem
+                    <textarea>
+                    </textarea>
+                </label>
+            <br>
+            </br>
+            <footer>
+                <button type="submit" class="btn btn-success">Enviar</button>
+                <button type="reset" class="btn btn-danger">Reset</button>
+            </footer>
+                </form>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
