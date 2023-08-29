@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Aula de Media Query</title>
+    <style>
+        #coluna-a {
+            background: rgb(134, 5, 5);
+            background: linear-gradient(0deg, rgba(134, 5, 5, 1) 0%, rgba(212, 99, 99, 1) 14%, rgba(212, 99, 99, 1) 83%, rgba(134, 5, 5, 1) 100%);
+        }
+
+        #coluna-b {
+            background: rgb(166, 212, 99);
+            background: linear-gradient(0deg, rgba(166, 212, 99, 1) 15%, rgba(134, 5, 5, 1) 100%);
+        }
+
+        #coluna-c {
+            background: rgb(34, 193, 195);
+            background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+        }
+
+        .coluna {
+            width: 100%;
+            float: left;
+        }
+
+        @media (min-width: 800px) {
+            .coluna {
+                width: 50%;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .coluna {
+                width: 33.3%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="coluna-a" class="coluna">
+        Coluna A
+    </div>
+    <div id="coluna-b" class="coluna">
+        Coluna B
+    </div>
+    <div id="coluna-C" class="coluna">
+        Coluna C
+    </div>
+</body>
+
+</html>
