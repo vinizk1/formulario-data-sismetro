@@ -1,4 +1,4 @@
-header {
+.imagemtitulo {
     display: flex;
     justify-content: center;
     margin: 20px;
@@ -13,6 +13,8 @@ h3 {
 }
 .textos-link {
    text-align: center;
+   background: rgb(255,0,0);
+   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(232,255,0,1) 79%);
 }
 
 .texto-principal {
@@ -34,12 +36,22 @@ h3 {
         width: 25%;
     }
 }
+.espaco {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 30px;
+}
 
 footer {
     text-align: center;
 }
 
 .textoh4 {
+    text-align: center;
+}
+.textoCentro {
     text-align: center;
 }
 .imagemcentro {
