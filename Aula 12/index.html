@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 12</title>
+</head>
+<body>
+    <script>
+        var a = [];
+        a[2] = 120;
+        a[7] = 0;
+        console.log(a);
+
+        var fibonacci = [];
+        fibonacci[0] = 1;
+        fibonacci[1] = 1;
+
+        var c = 2;
+
+        while(c < 100){
+            fibonacci[c] = fibonacci[c-1] + fibonacci[c-2];
+            c++;
+        }
+        console.log(fibonacci);
+//Fibonacci com a tag for
+ 
+        var fibonacci1=[];
+        fibonacci1[0]=1;
+        fibonacci1[1]=1;
+
+        for(var v=2; v<100;v++){
+            fibonacci1[v] = fibonacci1[v-1] + fibonacci1[v-2];
+        }
+        console.log(fibonacci1);
+//Fibonacci3
+        var fibonacci2 = [];
+        fibonacci2[0] = 1;
+        fibonacci2[1] = 1;
+
+
+        while(fibonacci2.length < 100){
+            fibonacci2[fibonacci2.length] = fibonacci2[fibonacci2.length-1] + fibonacci2[fibonacci2.length-2];
+           
+        }
+        console.log(fibonacci2);
+       
+    </script>
+</body>
+
+
+</html>
