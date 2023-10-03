@@ -40,11 +40,11 @@ background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(6,192,230,1) 22%,
                 <div class="row mt-2">
                     <div class="col-3">
                         <div class="d-grid gap-2">
-                            <button class="btn btn-primary" type="button">C</button>
-                            <button class="btn btn-dark" type="button">MR</button>
-                            <button class="btn btn-dark" type="button">MC</button>
-                            <button class="btn btn-dark" type="button">M+</button>
-                            <button class="btn btn-dark" type="button">M-</button>
+                            <button class="btn btn-primary" type="button" onclick="apagarTudo()">C</button>
+                            <button class="btn btn-dark" type="button" onclick="resultado_memoria()">MR</button>
+                            <button class="btn btn-dark" type="button" onclick="memoria_limpar()">MC</button>
+                            <button class="btn btn-dark" type="button" onclick="memoria_soma()">M+</button>
+                            <button class="btn btn-dark" type="button" onclick=" memoria_subtracao()">M-</button>
                         </div>
                     </div>
 
@@ -57,7 +57,7 @@ background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(6,192,230,1) 22%,
                             </div>
                             <div class="col-4">
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-dark" type="button">%</button>
+                                    <button class="btn btn-dark" type="button" onclick="porcentagem()">%</button>
                                 </div>
                             </div>
                         </div>
@@ -120,16 +120,16 @@ background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(6,192,230,1) 22%,
                             </div>
                             <div class="col-4">
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-dark" type="button">.</button>
+                                    <button class="btn btn-dark" type="button" onclick="adicionar_ponto()">.</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-3">
                         <div class="d-grid gap-2">
-                            <button class="btn btn-dark" type="button">/</button>
-                            <button class="btn btn-dark" type="button">*</button>
-                            <button class="btn btn-dark" type="button">-</button>
+                            <button class="btn btn-dark" type="button" onclick="efetuar_divisao()">/</button>
+                            <button class="btn btn-dark" type="button" onclick="efetuar_multiplicacao()">*</button>
+                            <button class="btn btn-dark" type="button" onclick="efetuar_subtracao()">-</button>
                             <button class="btn btn-dark" type="button" onclick="efetuar_soma()">+</button>
                             <button class="btn btn-dark" type="button" onclick="resultado()">=</button>
                         </div>
@@ -138,10 +138,10 @@ background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(6,192,230,1) 22%,
             </div>
         </div>
         <div class="row">
-        <div class="col-3 offset-2">
+        <div class="col-2 offset-2">
             <img src="raio.gif">
         </div>
-        <div class="col-4 offset-2">
+        <div class="col-3 offset-2">
             <img src="raio.gif">
     </div>
     </div>
